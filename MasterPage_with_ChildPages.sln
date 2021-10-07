@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MasterPage_with_ChildPages", "MasterPage_with_ChildPages\", "{D7A4DE07-87CA-413B-95EF-45FE94B9C1F1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55897"
+		Debug.AspNetCompiler.PhysicalPath = "MasterPage_with_ChildPages\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55897\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55897"
+		Release.AspNetCompiler.PhysicalPath = "MasterPage_with_ChildPages\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55897\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55897"
+		SlnRelativePath = "MasterPage_with_ChildPages\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A4DE07-87CA-413B-95EF-45FE94B9C1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A4DE07-87CA-413B-95EF-45FE94B9C1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6BB464-8349-4758-AB7E-D56DC3E8DAB2}
+	EndGlobalSection
+EndGlobal

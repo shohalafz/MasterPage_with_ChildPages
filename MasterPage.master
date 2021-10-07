@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 75px;
+            text-align: center;
+            background-color: #0099FF;
+        }
+        .auto-style3 {
+            height: 350px;
+            background-color: #FFFF99;
+        }
+        .auto-style4 {
+            height: 28px;
+            background-color: #FF99FF;
+        }
+        .auto-style5 {
+            background-color: #00FF00;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">
+                    <asp:Label ID="Label1" runat="server" BorderStyle="Solid" Font-Bold="True" Font-Size="XX-Large" Text="Shohal Afzal Website"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx">HomePage</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/About us.aspx">About us</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Default.aspx">Contact</asp:HyperLink>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                 
+                <td class="auto-style3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <br />
+                    Develope &amp; Design By : Shohal Afzal<br />
+                </td>
+            </tr>
+        </table>
+       
+        
+        
+    </div>
+    </form>
+</body>
+</html>
